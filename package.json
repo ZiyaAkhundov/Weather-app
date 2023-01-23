@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "xml2js": "^0.4.23"
+  },
+  "name": "weather-app",
+  "description": "Weather app written in HTML, CSS, and JavaScript. In this project using API for weather information and geolocation information.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "WeatherApp"
+  },
+  "author": "Ziya Akhundov",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.75.0"
+  }
+}
