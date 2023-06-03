@@ -27,10 +27,8 @@
 <link rel="icon" sizes="128x128" href="/pwa/img/weather128x128.png">
 <script>
   if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function () {
-      navigator.serviceWorker.register('/sw.js?v=7');
-    });
-  }
+   navigator.serviceWorker.register("/sw.js");
+}
 </script>
 </head>
 <!-- Gihub https://github.com/ZiyaAkhundov -->
