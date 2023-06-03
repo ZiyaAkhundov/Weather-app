@@ -3,32 +3,32 @@
     "short_name": "Weather",
     "icons": [
       {
-        "src": "/pwa/img/weather36x36.png",
+        "src": "./pwa/img/weather36x36.png",
         "sizes": "36x36",
         "type": "image/png"
       },
       {
-        "src": "/pwa/img/weather48x48.png",
+        "src": "./pwa/img/weather48x48.png",
         "sizes": "48x48",
         "type": "image/png"
       },
       {
-        "src": "/pwa/img/weather72x72.png",
+        "src": "./pwa/img/weather72x72.png",
         "sizes": "72x72",
         "type": "image/png"
       },
       {
-        "src": "/pwa/img/weather96x96.png",
+        "src": "./pwa/img/weather96x96.png",
         "sizes": "96x96",
         "type": "image/png"
       },
       {
-        "src": "/pwa/img/weather144x144.png",
+        "src": "./pwa/img/weather144x144.png",
         "sizes": "144x144",
         "type": "image/png"
       },
       {
-        "src": "/pwa/img/weather192x192.png",
+        "src": "./pwa/img/weather192x192.png",
         "sizes": "192x192",
         "type": "image/png"
       }
