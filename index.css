@@ -34,7 +34,6 @@ body{
     width: 100%;
     max-width: 327px;
     margin: auto 17px;
-
   }
   .search {
     display: flex;
@@ -54,7 +53,6 @@ body{
     cursor: pointer;
     transition: 0.2s ease-in-out;
   }
-  
   input.search-bar {
     border: none;
     outline: none;
@@ -73,28 +71,23 @@ body{
   button:hover {
     background: #5e5c5c6b;
   }
-  
   h1.temp {
     margin: 0;
     margin-bottom: 0.4em;
   }
-  
   .weather-icon-description {
     display: flex;
     align-items: center;
   }
-  
   .description {
     text-transform: capitalize;
     margin-left: 8px;
   }
-  
   .weather.loading {
     visibility: hidden;
     max-height: 20px;
     position: relative;
   }
-  
   .weather.loading:after {
     visibility: visible;
     content: "Loading...";
