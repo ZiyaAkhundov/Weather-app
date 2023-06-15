@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="icon" href="weather-icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../src/index.css">
+  <link rel="manifest" href="../manifest.json">
+  <link rel="stylesheet" href="../library/growlNotification.min.css">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Weather App">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link href="../pwa/img/iphone5_splash.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="../pwa/img/iphone6_splash.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="../pwa/img/iphoneplus_splash.png" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="../pwa/img/iphonex_splash.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image" />
+<link href="../pwa/img/ipad_splash.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="../pwa/img/ipadpro1_splash.png" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link href="../pwa/img/ipadpro2_splash.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image" />
+<link rel="apple-touch-icon" sizes="128x128" href="./pwa/img/weather128x128.png">
+<link rel="apple-touch-icon-precomposed" sizes="128x128" href="./pwa/img/weather128x128.png">
+<link rel="icon" sizes="192x192" href="./pwa/img/weather192x192.png">
+<link rel="icon" sizes="128x128" href="./pwa/img/weather128x128.png">
+<script>
+  if ('serviceWorker' in navigator) {
+   navigator.serviceWorker.register("./sw.js");
+}
+</script>
+</head>
+<!-- Gihub https://github.com/ZiyaAkhundov -->
+<body>
+  <div class="weather-header">
+    <h1><img src="../image/weather-icon.png" alt=""> Weather App</h1>
+  </div>
+  <div class="card">
+    <div class="weather-card">
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Search">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div class="weather loading">
+        <h2 class="city"></h2>
+        <h1 class="temp"></h1>
+        <div class="weather-icon-description">
+          <img src="https://openweathermap.org/img/wn/04n.png" class="icon" />
+          <div class="description"></div>
+        </div>
+        <div class="humidity"></div>
+        <div class="wind"></div>
+      </div>
+    </div>
+  </div>
+  <script src="../src/index.js"></script>
+  <script src="../library/growlNotification.min.js"></script>
+</body>
+</html>
