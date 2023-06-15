@@ -35,7 +35,7 @@
     ],
     "theme_color": "#0048ff",
     "background_color": "#9dafbf",
-    "start_url": "https://ziyaakhundov.github.io/Weather-app/",
+    "start_url": "./public",
     "display": "standalone",
     "orientation": "portrait"
   }
